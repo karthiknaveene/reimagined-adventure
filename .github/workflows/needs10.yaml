@@ -1,7 +1,7 @@
 name: Sample CI/CD Workflow
 
 on:
-  workflow_dispatch: 
+  workflow_dispatch
 
 jobs:
   job1-kn:
