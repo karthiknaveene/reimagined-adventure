@@ -1,9 +1,9 @@
 name: New
 
 on:
-  # Run the workflow every 5 minutes
-  # schedule:
-  #   - cron: '*/5 * * * *'  # Every 5 minutes
+  push:
+    branches:
+      - main
   workflow_dispatch:
   
 
