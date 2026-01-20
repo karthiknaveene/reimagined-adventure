@@ -27,8 +27,8 @@ jobs:
       - name: register-artifact-default-commit
         uses: cloudbees-io-gha/register-build-artifact@v3
         with:
-          name: manavt-Docker-artifact
-          url: https://hub.docker.com/repository/docker/hackers
+          name: test
+          url: https://test
           version: 1.0.0
           label: "Default commit"
 
