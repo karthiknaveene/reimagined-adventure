@@ -30,7 +30,7 @@ jobs:
           name: manavt-Docker-artifact
           url: https://hub.docker.com/repository/docker/hackers
           version: 1.0.0
-          label: "For Testing GHA integration"
+          label: "Default commit"
 
       - name: register-artifact-commit
         uses: cloudbees-io-gha/register-build-artifact@v3
