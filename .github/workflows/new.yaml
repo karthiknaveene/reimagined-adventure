@@ -39,6 +39,6 @@ jobs:
           url: https://hub.docker.com/repository/docker/hackers
           version: 1.0.0
           label: "For Testing GHA integration"
-          commit: "2ce229fabe7d7d0da1237eeae01602655b819ef5:
+          commit: "2ce229fabe7d7d0da1237eeae01602655b819ef5"
           repository-url: "https://github.com/karthiknaveene/super-duper-octo-telegram/"
           ref: "main"
